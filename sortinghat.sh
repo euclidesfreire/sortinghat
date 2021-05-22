@@ -179,6 +179,11 @@ installLaravel()
     pause
 }
 
+installPython()
+{
+	sudo apt-get install python3
+}
+
 installGit()
 {
     #Updtade 
@@ -241,7 +246,7 @@ verifyCommandsSecond()
 
     bool=0
 
-    commandsSecondArray=( "php" "composer" "curl" "docker" "dockerCompose" "driverWireless" "laravel" "git" "gitFlow" "wordpress")
+    commandsSecondArray=( "php" "composer" "curl" "docker" "dockerCompose" "driverWireless" "laravel" "Python" "git" "gitFlow" "wordpress")
 
     for i in "${commandsSecondArray[@]}"; do 
     
